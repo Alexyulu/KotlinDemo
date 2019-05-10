@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">kotlin</string>
+    <string name="back">返回</string>
+
+    <string name="phone">手机号</string>
+    <string name="password">密码</string>
+    <string name="login_bind_phone_and_validate">立即登录</string>
+    <string name="login_phone">登录页手机图片</string>
+    <string name="login_input_phone">请输入手机号</string>
+    <string name="login_pass_code">登录页验证码图片</string>
+    <string name="login_avatar">登录页logo</string>
 </resources>

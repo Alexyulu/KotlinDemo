@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF6600</color>
+
+    <!--页面背景的颜色-->
+    <color name="color_page_bg">#F1F3F4</color>
+
+    <color name="colorWhite">#ffffffff</color>
+    <color name="colorWhiteHalf">#bbffffff</color>
+
+    <color name="title_color">#333333</color>
+    <color name="title_color_less">#666666</color>
+    <color name="content_color">#999999</color>
+
+    <color name="gray_400">#BDBDBD</color>
+    <color name="bg_color">#F5F5F5</color>
+    <color name="blue01">#3296FA</color>
+    <color name="alpha">#00000000</color>
+    <color name="gray">#EAEAEA</color>
 </resources>

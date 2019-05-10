@@ -6,7 +6,7 @@ package com.kotlin.demo.base
  * Date : 2019/4/30
  * Desc :
  */
-open interface BaseView {
+interface BaseView {
     fun showErrorMsg(msg: String)
 
     //===state===

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/dlybj"
+              android:orientation="vertical">
+
+    <com.kotlin.demo.widget.CircleImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/login_avatar"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="65dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginRight="65dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/sjh"
+                android:contentDescription="@string/login_phone" />
+
+            <EditText
+                android:id="@+id/et_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="18dp"
+                android:background="@null"
+                android:hint="@string/phone"
+                android:maxLength="11"
+                android:textColorHint="#CFCFCF"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/title_color"
+                android:textSize="14sp"
+                tools:ignore="Autofill"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@+id/ll_user_pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginTop="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/mm"
+                android:contentDescription="@string/login_pass_code" />
+
+            <EditText
+                android:id="@+id/et_user_pass"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textColorHint="#CFCFCF"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/title_color"
+                android:textSize="14sp"
+                tools:ignore="Autofill"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:background="@color/gray" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/shape_login"
+        android:text="@string/login_bind_phone_and_validate"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+</LinearLayout>
