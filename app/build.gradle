@@ -52,12 +52,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    //implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    //implementation 'com.android.support:appcompat-v7:28.0.0'
-    /*implementation('com.android.support:appcompat-v7:28.0.0') {
-        exclude group: 'com.android.support', module: 'support-v4'
-    }*/
-    implementation 'androidx.appcompat:appcompat:1.1.0-alpha04'
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
     implementation 'com.google.android.material:material:1.0.0'
 
     implementation 'com.android.support:multidex:1.0.3'
@@ -65,12 +60,10 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
 
-//    implementation 'me.yokeyword:fragmentation:1.3.4'
-//    implementation 'com.pingerx:fragmentation:andx.1.0.0'
     implementation(name:'fragmentation', ext:'aar')
     implementation(name:'fragmentation-core', ext:'aar')
     implementation(name:'autosize-release', ext:'aar')
-    //implementation 'me.jessyan:autosize:1.1.2'
+    implementation(name:'easynavigation-release', ext:'aar')
 
     implementation 'com.blankj:utilcodex:1.23.7'
 
@@ -80,11 +73,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
 
     implementation 'com.jakewharton.rxbinding3:rxbinding:3.0.0-alpha2'
-    //implementation 'com.jakewharton.rxbinding3:rxbinding-core:3.0.0-alpha2'
     implementation 'com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0-alpha2'
-    //implementation 'com.jakewharton.rxbinding3:rxbinding-material:3.0.0-alpha2'
-    //implementation 'com.squareup.okhttp3:okhttp:3.14.0'
-    //implementation 'com.squareup.okhttp3:logging-interceptor:3.14.0'
 
     implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
